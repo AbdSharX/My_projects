@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    transition: all 600ms ease;
+}
+
+header nav a.btn {
+    padding: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;  
+}
+
+header nav a:hover {
+    color: #a1a1a1;
+}
+
+header nav a.btn:hover {
+    border-color: #de7474;
+}
+
+
+main {
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 50%;
+}
+
+aside {
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 400px;
+}
+
+aside img {
+    width: 300px;
+    height: 500px;
+}
+
+aside div.info {
+    background-color: #ffc007;
+    color: #42410c;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    line-height: 140%;
+    border-radius: 5px;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 100%;
+    border: 5px solid #fff;
+    box-sizing:border-box;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+form {
+    margin: 30px 0px;   
+}
+
+form label {
+    display: block;
+    margin-bottom: 7px;
+    width: 100%;
+    cursor: pointer;
+}
+
+form input {
+    width: 100%;
+    border: 1px solid silver;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    padding: 15px 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+form button {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #fec008;
+    cursor: pointer;
+    color: #42410c;
+    transition: transform 600ms ease;
+}
+
+form button:hover {
+    transform: scale(1.1);
+}
+.error {
+    color: #de2414;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0;
+    display: none;
+}
+
+
+footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+    padding: 30px;
+    color: #fff;
+    margin-top: 100px;
+    box-sizing: border-box;
+}
+
+
