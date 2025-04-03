@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(to right, blue, rgb(112, 20, 143), rgb(159, 14, 67), red);
+    cursor: pointer;
+}
+#A{
+    font-size: xx-large;
+}
+.AA{
+    background-image: linear-gradient(to right, blue, rgb(112, 20, 143), rgb(159, 14, 67), red);
+}
+input::placeholder{
+    color: #000;
+}
+input{
+    border-radius: 7px;
+    width: 250px;
+    height: 25px;
+}
+button{
+    border-radius: 7px;
+}
