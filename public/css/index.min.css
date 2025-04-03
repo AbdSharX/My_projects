@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: "Montserrat", serif;
+  font-weight: 400;
+  height: 66.2vh;
+  color: #858b8e;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  background: rgb(61, 0, 0) 0%;
+  background: linear-gradient(45deg, rgb(61, 0, 0) 0% 0%, rgb(0, 212, 255) 100% 100%);
+}
+.wrapper .block {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 50px 0;
+}
+.wrapper .block .img-holder {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #4860f6;
+  background: linear-gradient(90deg, #4860f6 0%, #095379 100%);
+}
+.wrapper .block .h3 {
+  font-weight: 500;
+  font-size: 23px;
+}
+.wrapper .block p {
+  text-decoration: underline;
+  font-size: 0.9em;
+  margin-top: 7px;
+}
+.wrapper .block .social {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+.wrapper .block .social div {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #c6c6c6;
+  border-radius: 50%;
+  line-height: 50px;
+  color: #c6c6c6;
+  transition: all 1000ms ease;
+}
+.wrapper .block .social div.twitter:hover {
+  background: #02537c;
+  color: #fff;
+}
+.wrapper .block .social div.fb:hover {
+  background: #006ba0;
+  color: #fff;
+}
+.wrapper .block .social div.yt:hover {
+  background: #810808;
+  color: #fff;
+}
+.wrapper .bottom-text {
+  margin: 20px;
+  text-align: center;
+  color: #fff;
+}
