@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid #fff; */
+}
+
+body {
+    background-color: #222;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: 16px;
+    color: #e8de71fe;
+}
+.foradap {
+    display: flex;
+    justify-content: center;  /* центр по горизонтали */
+    align-items: flex-start;  /* выравнивание по верхнему краю */
+    gap: 300px;               /* расстояние между колонками */
+    margin-top: 300px;
+}
+img.sun{
+    width: 500px;
+    position: absolute;
+    left: -200px;
+    top: -90px;
+    animation: Sun 30s linear infinite;
+}
+
+@keyframes Sun {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }   
+}
+
+form {
+   margin: 30px 0;
+}
+form h1 {
+    color: #e8de71fe;
+    margin-bottom: 30px;
+}  
+
+form input {
+    padding: 10px 25px;
+    border: none;
+    border-radius:5px;
+    background-color: #e8de71fe;
+    color: #2b200a;
+    display: block;
+    margin-bottom: 10px;
+}
+form input::placeholder{
+    color: #2b200a;
+}
+
+form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7b7637fe;
+    color: #2b200a;
+    transition: all 600ms ease;
+}
+form button:hover {
+    cursor: pointer;
+    transform: translateY(5px);
+}
+.weathercard {
+    background-color: #ccc;
+    width: 150px;
+    padding: 10px 15px;
+    display: block;
+    margin-bottom: 10px;
+    color: #222;
+    position: relative;
+}
+.weathercard img {
+    width: 100px;
+    position: absolute;
+    top: -45px;
+    right: -45px;  
+}
+.maincities {
+    margin-top: 30px;
+    
+}
+.maincities h2 {
+    margin-bottom: 20px;
+}
+
+button.del {
+        padding: 5px 7px;
+        background-color: rgb(140, 55, 55);
+        border: none;
+        border-radius: 5px;
+        margin-top: 7px;
+        transition: all 600ms ease;
+}
+button.del:hover {
+    transform: scale(1.1);
+    background-color: rgb(164, 40, 40);
+    cursor: pointer;
+}
+form p.error {
+    margin-bottom: 7px;
+    color: red;
+    font-weight: bold;
+}
